@@ -1,0 +1,22 @@
+.policy{
+    width: 100%;
+    height: 210px;
+    background: #83CFCC;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    p{
+        margin-top: 45px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #73635D;
+    }
+}

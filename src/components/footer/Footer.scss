@@ -1,0 +1,171 @@
+.main-footer{
+    width: 100%;
+    height: 280vh;
+    background: url("../../images//footer-bg.png") no-repeat center;
+    background-color: #fff;
+    display: flex;
+
+    .Webs{
+        img {
+            // width: 200px;
+            margin-top: 189px;
+            margin-left: 105px;
+        }
+            
+        .web {
+            margin-top: 73px;
+            margin-left: 110px;
+            
+            ul {
+                display: flex;
+                list-style-type: none;
+                align-items: center;
+                justify-content: space-between;
+                width: 125px;
+                // border: 1px solid red;
+                
+                li {
+                    height: 30px;
+                    background-color: black;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 30px;
+                    
+                    a {
+                        color: #fff;
+                        
+                        svg {
+                            font-size: 18px;
+                        }
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer{
+            width: 61%;
+            height: 27%;
+            margin-left: 135px;
+            margin-top: 193px;
+            // border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .footer-top{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content: space-between;
+                // border: 1px solid rebeccapurple;
+                gap: 5px;
+
+                .shop{
+                    width: 100%;
+                    // border: 1px solid gold;
+                    
+                    h3{
+                        font-weight: 500;
+                        font-size: 16px;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    }
+
+                    ul{
+                        width: 90%;
+                        height: 80%;
+                        // border: 1px solid red;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        list-style-type: none;
+
+                        margin-top: 25px;
+                        margin-left: 10px;
+
+                        li{
+                            margin-left: 20px;
+                            cursor: pointer;
+
+                            a{
+                                text-decoration: none;
+                                font-size: 19px;
+                                color: #000;
+                            }
+                        }
+                    }
+                }
+
+                .shop:nth-child(3){
+                    // border: 1px solid green;
+
+                    ul{
+                        height: 62%;
+                    }
+                }
+            }
+            .footer-bottom {
+                width: 100%;
+                height: 50%;
+                // border: 1px solid rebeccapurple;
+                display: flex;
+                justify-content: space-between;
+                // border: 1px solid rebeccapurple;
+                gap: 5px;
+                
+                .shop {
+                    // border: 1px solid gold;
+                    width: 100%;
+                    
+                    h3 {
+                        font-weight: 500;
+                        font-size: 16px;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 30px;
+                    }
+                
+                    ul {
+                        width: 90%;
+                        height: 70%;
+                        // border: 1px solid red;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        list-style-type: none;
+                        
+                        margin-top: 25px;
+                        margin-left: 10px;
+                        
+                        li {
+                            margin-left: 20px;
+                            cursor: pointer;
+                
+                            a {
+                                text-decoration: none;
+                                font-size: 19px;
+                                color: #000;
+                            }
+                            }
+                        }
+                    }
+                    .shop:nth-child(2) {
+                        ul {
+                            height: 55%;
+                        }
+                    }
+                    .shop:nth-child(3) {
+                    // border: 1px solid green;
+                    ul {
+                        height: 45%;
+                    }
+                }
+            }
+        }
+}

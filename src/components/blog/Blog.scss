@@ -1,0 +1,221 @@
+.main-blog {
+    width: 100%;
+    height: 145vh;
+    background: #fff;
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 42px;
+        font-weight: 400;
+        margin-left: 95px;
+        margin-top: 40px;
+    }
+
+    .blogs {
+        width: 85%;
+        height: 85%;
+        // border: 1px solid gold;
+        margin: 35px auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+        .blog1 {
+            width: 49.5%;
+            height: 100%;
+            // border: 1px solid blue;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .blog1-img {
+                width: 99%;
+                height: 70%;
+                // border: 1px solid red;
+                overflow: hidden;
+                cursor: pointer;
+                margin-top: 2px;
+
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    transition: .5s;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        transition: .5s;
+                    }
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: 500;
+                font-size: 15px;
+                margin-left: -180px;
+                margin-top: 25px;
+
+                &:hover {
+                    color: #7180AC;
+                    cursor: pointer;
+                }
+            }
+
+            p {
+                padding: 0 20px;
+                color: #898989;
+                margin-top: 15px;
+                font-size: 14px;
+                width: 100%;
+            }
+            
+            button {
+                width: 170px;
+                height: 43px;
+                background-color: #2F302E;
+                color: #fff;
+                font-size: 16px;
+                border-radius: 15px;
+                border: none;
+                transition: .3s;
+                margin-top: 20px;
+
+                &:hover {
+                    background: #7180AC;
+                    cursor: pointer;
+                    transition: .3s;
+                }
+            }
+
+            .blog-date {
+                width: 100%;
+                height: 10.5%;
+                border: 1px solid #EFEFEF;
+                display: flex;
+                flex-direction: column;
+                align-items: center !important;
+                justify-content: space-around;
+                margin-top: 20px;
+                padding: 13px 0;
+                // border: 1px solid red;
+
+                p {
+                    color: #898989;
+                    display: flex;
+                    align-items: center !important;
+                    justify-content: center;
+                    text-align: center !important;
+                    font-size: 15px;
+                    margin: auto;
+                    // border: 1px solid rebeccapurple;
+
+                    svg {
+                        color: #D7DBDB;
+                    }
+                }
+            }
+        }
+
+        .blog2 {
+            width: 49.5%;
+            height: 82%;
+            // border: 1px solid blue;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+
+            .blog2-img {
+                width: 99%;
+                height: 68.5%;
+                // border: 1px solid red;
+                overflow: hidden;
+                cursor: pointer;
+                margin-top: 2px;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    transition: .5s;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        transition: .5s;
+                    }
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: 500;
+                font-size: 15px;
+                margin-left: -220px;
+                margin-top: 25px;
+
+                &:hover {
+                    color: #7180AC;
+                    cursor: pointer;
+                }
+            }
+            p {
+                margin-left: 20px;
+                color: #898989;
+                margin-top: 15px;
+                font-size: 14px;
+            }
+
+            button {
+                width: 170px;
+                height: 43px;
+                background-color: #2F302E;
+                color: #fff;
+                font-size: 16px;
+                border-radius: 15px;
+                border: none;
+                transition: .3s;
+                margin-top: 20px;
+
+                &:hover {
+                    background: #7180AC;
+                    cursor: pointer;
+                    transition: .3s;
+                }
+            }
+
+            .blog-date {
+                width: 100%;
+                height: 10%;
+                border: 1px solid #EFEFEF;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 20px;
+                padding: 40px 0;
+                // border: 1px solid red;
+
+                p {
+                    color: #898989;
+                    display: flex;
+                    align-items: center;
+                    font-size: 15px;
+
+                    svg {
+                        color: #D7DBDB;
+                    }
+                }
+            }
+        }
+    }
+}

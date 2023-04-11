@@ -1,0 +1,68 @@
+.main-our{
+    width: 100%;
+    height: 435px;
+    // border: 1px solid red;
+    background: #fff;
+    padding-top: 30px;
+
+h1{
+    font-weight: 400;
+    margin-left: 100px;
+    font-size: 43px;
+    // margin-top: 10px;
+}
+
+    .our-cards{
+        width: 85%;
+        height: 74%;
+        // border: 1px solid red;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        gap: 30px;
+        margin-top: 30px;
+
+        .our-card{
+            width: 80%;
+            height: 95%;
+            // border: 1px solid gold;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+
+            &:hover{
+                .our-img{
+                cursor: pointer;
+                    img{
+                        transform: scale(1.3);
+                        transition: .5s;
+                    }
+                }
+            }
+            .our-img{
+                width: 98%;
+                height: 70%;
+                // border: 1px solid red;
+                overflow: hidden;
+                justify-content: center;
+                display: flex;
+                margin-left: 3px;
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 85%;
+                    margin: auto;
+                    transition: .5s;
+                }
+
+            }
+
+            p{
+                margin-left: 25px;
+                margin-top: 25px;
+                font-weight: 500;
+                font-size: 15px;
+            }
+        }
+    }
+}
